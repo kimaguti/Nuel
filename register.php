@@ -18,6 +18,9 @@ if ($conn->connect_error) {
 // Get data from the request body
 $data = json_decode(file_get_contents("php://input"));
 
+// Debugging output to check received data
+var_dump($data);  // This will show if data is correctly sent from React
+
 // Sanitize and assign form data
 $first_name = $data->first_name ?? '';
 $middle_name = $data->middle_name ?? '';  // Optional field
