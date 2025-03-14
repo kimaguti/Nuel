@@ -29,13 +29,54 @@ const Register = () => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input type="text" name="first_name" placeholder="First Name" onChange={handleChange} required />
-      <input type="text" name="middle_name" placeholder="Middle Name" onChange={handleChange} />
-      <input type="text" name="last_name" placeholder="Last Name" onChange={handleChange} required />
-      <input type="text" name="phone_number" placeholder="Phone Number" onChange={handleChange} required />
-      <input type="text" name="username" placeholder="Username" onChange={handleChange} required />
-      <input type="password" name="password" placeholder="Password" onChange={handleChange} required />
-      <input type="text" name="group_name" placeholder="Group Name" onChange={handleChange} required />
+      <input 
+        type="text" 
+        name="first_name" 
+        placeholder="First Name" 
+        onChange={handleChange} 
+        required 
+      />
+      <input 
+        type="text" 
+        name="middle_name" 
+        placeholder="Middle Name" 
+        onChange={handleChange} 
+      />
+      <input 
+        type="text" 
+        name="last_name" 
+        placeholder="Last Name" 
+        onChange={handleChange} 
+        required 
+      />
+      <input 
+        type="text" 
+        name="phone_number" 
+        placeholder="Phone Number" 
+        onChange={handleChange} 
+        required 
+      />
+      <input 
+        type="text" 
+        name="username" 
+        placeholder="Username" 
+        onChange={handleChange} 
+        required 
+      />
+      <input 
+        type="password" 
+        name="password" 
+        placeholder="Password" 
+        onChange={handleChange} 
+        required 
+      />
+      <input 
+        type="text" 
+        name="group_name" 
+        placeholder="Group Name" 
+        onChange={handleChange} 
+        required 
+      />
       <button type="submit">Register</button>
     </form>
   );
